@@ -1,13 +1,44 @@
-.xyz {
-    border: 3px solid black;
-    margin: 1rem;
-    padding: 4rem 6rem;
-    text-align: center;
-  }
-  .abc{
-    display: inline-block;
-    border: 3px solid rgb(184, 127, 238);
-    padding: 2rem 8rem;
-    vertical-align: middle;
-    border-radius: 10px;
+
+
+
+
+body{
+    display: in;
+    background-color: rgb(241, 198, 241);
 }
+
+.leftbox{
+    float: left;
+    
+    background-color: white; 
+    border-radius: 3%;
+    width: 400px;
+    padding: 30px 10px 30px 10px;
+}
+
+
+
+
+.middlebox{
+    float: left;
+    background-color: white;
+    margin: 5px;
+    border-radius: 3%;
+    padding: 30px 10px 30px 10px;
+    
+    width: 350px;
+}
+.rightbox{
+    float: right;
+    padding: 30px 10px;
+    background-color: white;
+    border-radius: 3%;
+   
+    width: 350px;
+}
+
+
+
+
+
+
