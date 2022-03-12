@@ -1,44 +1,61 @@
 
-
-
-
-body{
-    display: in;
-    background-color: rgb(241, 198, 241);
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
-.leftbox{
-    float: left;
-    
-    background-color: white; 
-    border-radius: 3%;
-    width: 400px;
-    padding: 30px 10px 30px 10px;
+.box-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
 
-
-
-
-.middlebox{
-    float: left;
-    background-color: white;
-    margin: 5px;
-    border-radius: 3%;
-    padding: 30px 10px 30px 10px;
-    
-    width: 350px;
-}
-.rightbox{
-    float: right;
-    padding: 30px 10px;
-    background-color: white;
-    border-radius: 3%;
-   
-    width: 350px;
+#box1 {
+    padding: 10px;
+    height: 30px;
+    line-height: 30px;
+    border: solid 3px rgb(171, 231, 171)
 }
 
+#box2 {
+    height: 15px;
+    padding: 8px;
+    border: solid 3px rgb(169, 169, 248)
+}
 
+#box3 {
+    padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    border: solid 3px rgb(7, 119, 7)
+}
 
+#box4 {
+    flex-grow: 2;
+    border: solid 3px rgb(238, 204, 140)
+}
 
+.middle-column {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 
+}
 
+.middle-column div {
+    flex-grow: 1;
+    margin: 0 8px;
+    border: solid 3px rgb(248, 105, 105);
+}
+
+.middle-column div+div {
+    margin-top: 8px
+}
+
+#box8 {
+    flex-grow: 1;
+    border: solid 3px rgb(209, 135, 135)
+}
