@@ -1,49 +1,271 @@
 <!DOCTYPE html>
-<html lang='en'>
-  
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-  
-    <title>
-        How to create 3 boxes 
-        in the same div using
-        HTML and CSS ?
-    </title>
-  
-    
-      
-  
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Furniture Shop website 
+        </title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+</head>
 <body>
-    <div class="box-wrapper">
-        <div id="box1">
-            horizontal box  1
-        </div>
-  
-        <div id="box2">
-            horizontal box 2
-        </div>
-  
-        <div id="box3">
-            <div id="box4">
-                 vertical box 1
-            </div>
-            <div class="middle-column">
-                <div id="box5">
-                    vertical box2.1
-                </div>
-                <div id="box6">
-                    vertical box2.2
-                </div>
-                <div id="box7">
-                    vertical box2.3
-                </div>
-            </div>
-            <div id="box8">
-                vertical box 3
-            </div>
+<section id="banner">
+    <img src="Furniture_Shop_imgs/logo furniture.png" class="logo">
+    <div class="banner_text">
+        <h1>
+            SR Furnitures
+        </h1>
+        <p>Fulfill Home With Your Dreams
+            
+        </p>
+        <div class="banner_btn">
+            <a href="#"><span></span>Find Out</button>
+            <a href="#"><span></span>Read More</button>
         </div>
     </div>
+</section>
+<div id="sidenav">
+    <nav>
+        <ul>
+            <li><a href="#banner">HOME</a></li>
+            <li><a href="#feature">FEATURES</a></li>
+            <li><a href="#service">SERVICES</a></li>
+            <li><a href="#testimonial">TESTIMONIALS</a></li>
+            <li><a href="#footer">MEET</a></li>
+        </ul>
+    </nav>
+
+</div>
+<div id="menubtn">
+    <img src="Furniture_Shop_imgs/menu.png" id="menu">
+</div>
+
+<!--Features-->
+<section id="feature">
+<div class="title-text">
+<p>FEATURES</p>
+<h1>Why Choose Us</h1>
+</div>
+<div class="feature-sec">
+<div class="features">
+    <h1>
+        Infinity Of Collections
+    </h1>
+    <div class="features-des">
+        <div class="feature-icons">
+            <i class="fa fa-shield"></i>
+        </div>
+        
+        <div class="feature-text">
+            <p> We have lots of collections as you desire. We provide different and unique desiges for your home  </p>
+        </div>
+    
+    </div>
+       <h1>
+          Online Booking
+    </h1>
+     <div class="features-des">
+         <div class="feature-icons">
+             <i class="fa fa-check-square-o"></i>
+         </div>
+    
+    <div class="feature-text">
+        <p>No stepping out. Design your home interiors from the safety and comfort of your home.  Explore life-like 3D designs online that are made for your floor plan.
+     </p>
+    </div>
+    </div>
+    
+    <h1>
+        Affordable Cost
+    </h1>
+    <div class="features-des">
+        <div class="feature-icons">
+<i class="fa fa-inr"></i>
+        </div>
+        
+        <div class="feature-text">
+            <p> You will love our store because of how affordable its furniture is. Many our products cost about half the price of competitors. Part of why our prices are so low is that it packs everything flat to save on storage and transportation costs. 
+        </p>
+        </div>
+        </div>
+        </div>
+        
+
+<div class="feature-img">
+    <img src="Furniture_Shop_imgs/banner 2.jpg">
+</div>
+
+</section>
+<!--service-->
+<section id="service">
+    <div class="title-text">
+        <p>SERVICES</p>
+        <h1>We Provide Better</h1>
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                <img src="Furniture_Shop_imgs/imgfur1.jpg"> 
+                   <div class="overlay">
+                    <div class="service-des">
+                        <h3>Rust Proof </h3>
+                        <hr>
+                        <p>We provide completely rust proof products which are approved.</p>
+                    </div>
+
+                   </div>
+            </div>
+            <div class="single-service">
+                <img src="Furniture_Shop_imgs/imgfur3.jpg"> 
+               <div class="overlay">
+                <div class="service-des">
+                    <h3>Water Proof </h3>
+                    <hr>
+                    <p>We provide completely water proof products which are approved.</p>
+                
+                </div>
+
+                     </div>
+            </div>
+            <div class="single-service">
+                <img src="Furniture_Shop_imgs/imgfur3.2.jpg"> 
+                   <div class="overlay">
+                   <div class="service-des">
+                       <h3>Fire proof</h3>
+                       <hr>
+                       <p>We provide completely fire proof material which are approved.</p>
+                    </div>
+                   </div>
+            </div>
+            
+            <div class="single-service">
+                <img src="Furniture_Shop_imgs/imgfur4.2.jpg"> 
+                  <div class="overlay">
+                  <div class="service-des">
+                    <h3>Pest proof</h3>
+                    <hr>
+                    <p>We provide completely pest proof products which are approved.
+                </p>
+                </div>  
+            </div>
+        </div>
+    
+            
+    </div>
+
+
+</section>
+<!--Testimonial-->
+<section id="testimonial">
+    <div class="title-text">
+<p>TESTIMONIALS</p>
+<h1>What Client Says</h1>
+</div>
+    <div class="testimonial-row">
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="Furniture_Shop_imgs/img-1.jpg">
+                <div class="user-info">
+                   <h4>Bhanu<i class="fa fa-twitter"></i>
+
+                   </h4>
+                   <small>@bhanu</small>
+
+                </div>
+            </div>
+            <p>Good experience for visiting Anu Furniture and good collections. Receiving customers is good, one executive person Mahender, he was explaining everything about furniture and he was perfect. Thank you Mr.Mahender.</p>
+            </div>
+             <div class="testimonial-col">
+                <div class="user">
+                    <img src="Furniture_Shop_imgs/img-3.jpg">
+                    <div class="user-info">
+                       <h4>Mr.Nags<i class="fa fa-twitter"></i>
+    
+                       </h4>
+                       <small>@NagsMr</small>
+    
+                    </div>
+                </div>
+                <p> They literally brought everything I would ever need at home, then decorated my entire studio in 2 hours...</p>
+                </div>
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="Furniture_Shop_imgs/img-2.jpg">
+                <div class="user-info">
+                   <h4>Riya<i class="fa fa-twitter"></i>
+
+                   </h4>
+                   <small>@riya</small>
+
+                </div>
+            </div>
+            <p> With Nickson, furnishing my new Airbnb homes has become so much more affordable and effortless...</p>
+          </div>
+        </div> 
+</section>
+<!--footer-->
+<section id="footer">
+    <img src="Furniture_Shop_imgs/footer img furniture.png" class="footerimg">
+    <div class="title-text">
+    <p>CONTACT US</p>
+    <h1>Visit Shop Today</h1>
+    </div>
+<div class="footer-row">
+<div class="footer-left">
+    <h1>Opening Hours</h1>
+    <p><i class="fa fa-clock-o"></i>Monday to Friday - 9am to 9pm</p>
+    <p><i class="fa fa-clock-o"></i>Saturday and Sunday - 8pm to 11pm</p>
+</div>
+<div class="footer-right">
+    <h1>Get In Touch</h1>
+    <p>#30 abc Colony ,xyz City IN<i class="fa fa-map-marker"></i></p>
+    <p>model@website.com<i class="fa fa-paper-plane"></i></p>
+    <p>+01 12345678<i class="fa fa-phone"></i></p>
+</div>
+
+</div>
+<div class="socialmedia">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-youtube-play"></i>
+    <p>Copyright @Gadagoju Sriya</p>
+</div>
+
+</section>
+<script>
+var menubtn =document.getElementById("menubtn")
+var sidenav =document.getElementById("sidenav")
+var menu =document.getElementById("menu")
+sidenav.style.right=-"250px";
+
+menubtn.onclick = function() {
+if(sidenav.style.right =="-250px"){
+    sidenav.style.right="0";
+    menu.src ="Furniture_Shop_imgs/close.png";
+}
+else{
+  sidenav.style.right ="-250px";
+ menu.src ="Furniture_Shop_imgs/menu.png";
+} 
+}
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+
+</script>
+
+
+
+
+
+
 </body>
-  
 </html>
